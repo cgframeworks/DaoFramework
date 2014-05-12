@@ -5,7 +5,6 @@ org.cg.dao.core,1.0.0,plugins/org.cg.dao.core_1.0.0.jar,4,true
 org.cg.dao.modular,1.0.0,plugins/org.cg.dao.modular_1.0.0.jar,4,true
 org.cg.dao.logging,1.0.0,plugins/org.cg.dao.logging_1.0.0,4,true
 org.cg.dao.auth,1.0.0,plugins/org.cg.dao.auth_1.0.0.jar,4,true
-org.cg.dao.web.admin,1.0.0,plugins/org.cg.dao.web.admin_1.0.0,4,true
 org.cg.dao.webcontainer,7.0.21,plugins/org.cg.dao.webcontainer_7.0.21,4,true
 javax.activation,1.1.0.v201108011116,plugins/javax.activation_1.1.0.v201108011116.jar,4,false
 javax.mail,1.4.0.v201005080615,plugins/javax.mail_1.4.0.v201005080615.jar,4,false
