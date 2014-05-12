@@ -11,10 +11,12 @@
 		</layout>
 	</appender>
 	 <appender name="fileAppender" class="org.apache.log4j.RollingFileAppender">
-      <param name="append" value="false"/>
+      <param name="append" value="true"/>
+       <param name="MaxFileSize" value="2048KB" />
+      <param name="MaxBackupIndex" value="100" />  
       <param name="file" value="logs/appserver.log"/>
       <layout class="org.apache.log4j.PatternLayout">
-         <param name="ConversionPattern" value="%d{ABSOLUTE} %-5p [%c{1}] %m%n"/>
+         <param name="ConversionPattern" value="%d{ABSOLUTE} [%t] %-5p %c{2} %x - %m%n"/>
       </layout>
    </appender>
 	
