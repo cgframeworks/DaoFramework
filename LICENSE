@@ -201,102 +201,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-================================================================================
 
-The compiled Apache Flume distribution includes the following sources/binaries.
-The use of these sources/binaries is subject to the terms and conditions of
-their respective licenses.
-
-
-For 
- apache-log4j-extras-<version>.jar:
- apache-mime4j-core-<version>.jar:
- apache-mime4j-dom-<version>.jar:
- avro-<version>.jar:
- avro-ipc-<version>.jar:
- boilerpipe-<version>.jar:
- cdk-morphlines-avro-<version>.jar:
- cdk-morphlines-core-<version>.jar:
- cdk-morphlines-solr-cell-<version>.jar:
- cdk-morphlines-solr-core-<version>.jar:
- cdk-morphlines-tika-core-<version>.jar:
- cdk-morphlines-tika-decompress-<version>.jar:
- cdk-morphlines-twitter-<version>.jar:
- commons-cli-<version>.jar:
- commons-codec-<version>.jar:
- commons-collections-<version>.jar:
- commons-compress-<version>.jar:
- commons-dbcp-<version>.jar:
- commons-fileupload-<version>.jar:
- commons-io-<version>.jar:
- commons-lang-<version>.jar:
- commons-logging-<version>.jar:
- commons-pool-<version>.jar:
- config-<version>.jar:
- derby-<version>.jar:
- fontbox-<version>.jar:
- guava-<version>.jar:
- gson-<version>.jar:
- httpclient-<version>.jar:
- httpcore-<version>.jar:
- httpmime-<version>.jar:
- irclib-<version>.jar:
- isoparser-1.0-RC-<version>.jar:
- jackson-annotations-2.<version>.jar:
- jackson-core-2.<version>.jar:
- jackson-core-asl-1.<version>.jar:
- jackson-databind-2.<version>.jar:
- jackson-mapper-asl-1.<version>.jar:
- jempbox-<version>.jar:
- jetty-<version>.jar:
- jetty-util-<version>.jar:
- joda-time-<version>.jar:
- libthrift-<version>.jar:
- log4j-<version>.jar:
- lucene-analyzers-common-<version>.jar:
- lucene-analyzers-kuromoji-<version>.jar:
- lucene-analyzers-phonetic-<version>.jar:
- lucene-codecs-<version>.jar:
- lucene-core-<version>.jar:
- lucene-grouping-<version>.jar:
- lucene-highlighter-<version>.jar:
- lucene-memory-<version>.jar:
- lucene-misc-<version>.jar:
- lucene-queries-<version>.jar:
- lucene-queryparser-<version>.jar:
- lucene-spatial-<version>.jar:
- lucene-suggest-<version>.jar:
- metadata-extractor-<version>.jar:
- metrics-core-<version>.jar:
- mina-core-<version>.jar:
- netty-<version>.jar:
- noggit-<version>.jar:
- org.restlet-<version>.jar:
- org.restlet.ext.servlet-<version>.jar:
- pdfbox-<version>.jar:
- poi-<version>.jar:
- poi-ooxml-<version>.jar:
- poi-ooxml-schemas-<version>.jar:
- poi-scratchpad-<version>.jar:
- rome-<version>.jar:
- servlet-api-<version>.jar:
- snappy-java-<version>.jar:
- solr-cell-<version>.jar:
- solr-core-<version>.jar:
- solr-solrj-<version>.jar:
- spatial4j-<version>.jar:
- tagsoup-<version>.jar:
- tika-core-<version>.jar:
- tika-parsers-<version>.jar:
- tika-xmp-<version>.jar:
- velocity-<version>.jar:
- vorbis-java-core-<version>-tests.jar:
- vorbis-java-core-<version>.jar:
- vorbis-java-tika-<version>.jar:
- wstx-asl-<version>.jar:
- xmlbeans-<version>.jar:
- zookeeper-<version>.jar:
- 
   The Apache License, Version 2.0
 
 For
@@ -1397,10 +1302,4 @@ For
   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   POSSIBILITY OF SUCH DAMAGE.
 
-For
- xz-<version>.jar:
 
-  This Java implementation of XZ has been put into the public domain, thus you
-  can do whatever you want with it. All the files in the package have been
-  written by Lasse Collin, but some files are heavily based on public domain
-  code written by Igor Pavlov.
