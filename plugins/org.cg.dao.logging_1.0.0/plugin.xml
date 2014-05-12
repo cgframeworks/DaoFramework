@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         id="Logging"
+         name="Logging"
+         point="org.cg.dao.core.application">
+      <application
+            class="org.cg.dao.logging.App"
+            priority="0">
+      </application>
+   </extension>
+
+</plugin>

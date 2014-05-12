@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.cg.dao.webcontainer.WebApp">
+      <webapp
+            contextRoot="/management"
+            docRoot="/webContents"
+            startOrder="58">
+         <param
+               name="org.cg.dao.console.param1"
+               value="org.cg.dao.console.param1">
+         </param>
+      </webapp>
+   </extension>
+
+</plugin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="WebApp" name="Web Application" schema="schema/webApplication.exsd"/>
+   <extension
+         id="webcontainer"
+         name="webcontainer"
+         point="org.cg.dao.core.application">
+      <application
+            class="org.cg.dao.webcontainer.tomcat.Application"
+            priority="3">
+      </application>
+   </extension>
+
+</plugin>

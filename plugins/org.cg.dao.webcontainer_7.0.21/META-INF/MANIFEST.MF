@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Web Container Application
+Bundle-SymbolicName: org.cg.dao.webcontainer;singleton:=true
+Bundle-Version: 7.0.21
+Bundle-Activator: org.cg.dao.webcontainer.Activator
+Require-Bundle: org.eclipse.core.runtime,org.cg.dao.core;bundle-versio
+ n="1.0.0",org.cg.dao.logging;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/annotations-api.jar,lib/bootstrap.jar,lib/cata
+ lina-ant.jar,lib/catalina-ha.jar,lib/catalina-tribes.jar,lib/catalina
+ .jar,lib/commons-logging.jar,lib/ecj-3.7.jar,lib/el-api.jar,lib/jaspe
+ r-el.jar,lib/jasper.jar,lib/jsp-api.jar,lib/mail.jar,lib/servlet-api.
+ jar,lib/tomcat-api.jar,lib/tomcat-coyote.jar,lib/tomcat-dbcp.jar,lib/
+ tomcat-i18n-es.jar,lib/tomcat-i18n-fr.jar,lib/tomcat-i18n-ja.jar,lib/
+ tomcat-jdbc.jar,lib/tomcat-juli.jar,lib/tomcat-util.jar
+Export-Package: javax.mail,javax.mail.event,javax.mail.internet,javax.
+ mail.search,javax.servlet,javax.servlet.http,javax.servlet.jsp,javax.
+ servlet.jsp.el,javax.servlet.jsp.tagext,org.apache.catalina,org.apach
+ e.catalina.authenticator,org.apache.catalina.connector,org.apache.cat
+ alina.core,org.apache.catalina.deploy,org.apache.catalina.loader,org.
+ apache.catalina.mbeans,org.apache.catalina.realm,org.apache.catalina.
+ security,org.apache.catalina.servlets,org.apache.catalina.session,org
+ .apache.catalina.startup,org.apache.catalina.users,org.apache.catalin
+ a.util,org.apache.catalina.valves,org.apache.commons.logging,org.apac
+ he.commons.logging.impl,org.cg.dao.webcontainer,org.cg.dao.webcontain
+ er.tomcat
+
